@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cadastro dos Alunos</h1>
+    <form method="GET"></form>
+    <section>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome:<input type="text"required></label>
+            <label>Sobrenome:<input type="text"required></label>
+            <label>Data de Nacimento:<input type="date"required></label>
+            <fieldset>
+                <legend>Sexo</legend>
+                <label><input type="radio">Masculino</label>
+                <label><input type="radio">Feminino</label>
+                <label><input type="radio">LGBT</label>
+            </fieldset>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Dados Acadêmicos</legend>
+            <label>Escolaridade:
+                <select name="Escolaridade" required id="">
+                    <option value=""selected disabled>Selecione</option>
+                    <option value="0">Analfabeto</option>
+                    <option value="1">Fundamental incompleto</option>
+                    <option value="2">Fundamental completo</option>
+                    <option value="3">Ensino Médio incompleto</option>
+                    <option value="4">Ensino Médio completo</option>
+                    <option value="5">Ensino Tecnico incompleto</option>
+                    <option value="6">Ensino Tecnico completo</option>
+                    <option value="7">Ensino Superior incompleto</option>
+                    <option value="8">Ensino Superior completo</option>
+                </select>
+                
+            </label>
+            
+        </fieldset>
+    </section>
+    <br>
+    <input type="submit" value="Cadastrar Aluno">
+
+</body>
+
+</html>
