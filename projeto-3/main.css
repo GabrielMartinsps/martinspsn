@@ -1,0 +1,84 @@
+.header{
+    position: absolute;
+    width: 1366px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.tecno{
+    position: absolute;
+width: 207px;
+height: 50px;
+left: 171px;
+top: 25px;
+}
+.titulo{
+    position: absolute;
+width: 120px;
+height: 21px;
+left: 623px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+}
+
+.perfil{
+    position: absolute;
+width: 48px;
+height: 48px;
+left: 1147px;
+top: 26px;
+}
+
+.Caixa-1{
+    position: absolute;
+    width: 292px;
+    height: 422px;
+    left: 171px;
+    top: 203px;
+    
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Caixa-2{
+    position: absolute;
+    width: 292px;
+    height: 501px;
+    left: 537px;
+    top: 167px;
+    
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.Caixa-3{
+position: absolute;
+width: 292px;
+height: 422px;
+left: 903px;
+top: 203px;
+
+background: #FFFFFF;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+.caixas-geral{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #D7D7D7;
+}
