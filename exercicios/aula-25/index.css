@@ -18,27 +18,44 @@ main {
     height: 15px;
     width: 15px;
     background-color: #cccccc;
-    /* campo fechado */
+}
+
+.aberto {
+    background-color: #777777;
+    border-style: inset
+}
+
+._1 {
+    color: green;
+}
+
+._2,
+._3,
+._4 {
+    color: yellow;
+}
+
+._5,
+._6,
+._7 {
+    color: orange;
+}
+
+._8 {
+    color: red;
 }
 
 .marcado {
     background-color: burlywood;
     border-style: inset
-    /* campo marcado */
 }
 
-.alerta {
-    /* campo que ao redor tem bomba */
+.explodidio {
+    color: white;
+    background-color: RED;
+    border-style: inset
 }
 
-.aberto {
-    /* campo aberto */
-}
-
-.explodidio{
-    /* campo no qual explodiu a bomba */
-}
-
-.bomba {
-    /* campo aberto com bomba */
+.salvo {
+    background-color: cornflowerblue;
 }
